@@ -1,0 +1,27 @@
+.container {
+    height: 100vh;
+  }
+
+.container-fluid {
+  margin-top:160px
+}
+  
+  .loginFormContainer {
+    margin-top:115px;
+    width: 24rem;
+  }
+  
+#loginForm {
+  max-height: 115px;
+}
+
+  .loginFormLegend {
+    width: 14rem;
+    background: #dee2e6;
+  }
+  
+  .errorMessage {
+    font-size: 12px;
+    letter-spacing: 0.05rem;
+    padding-left: 0.25rem;
+  }

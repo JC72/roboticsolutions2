@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* NavBar CSS Code */
+#logInInfo {
+  float:right;
+}
+
+#logoTitle {
+  float:left;
+}
+/* Header CSS Code */
+#division, #logInInfo {
+  font-size: 15px ;
+}
+
+#SignOutBtn {
+  margin-inline-end: 65px;
+}
+
+/* MainFooter CSS Code */
+#NewItem {
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 15px;
+  width:140px;
+  margin-inline-end: 65px;
+}
+
+/* VersionInfo CSS Code */
+#versionInfo {
+  font-size: 10px;
+  font-weight: bold
+}
+
+/* AddInfo Footer CSS Code */
+#AddBtn {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+#UpdateBtn {
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+}
+
+#inputLabels {
+  font-size: 12px;
+}
+
+.form-control-sm{
+  font-size: 12px;
+}
+
+#notesField {
+  font-size: 12px;
+}
+
+#Stages {
+margin-bottom: 20px;
+margin-top:15px;
+text-decoration: underline;
+}
+
+.col-sm {
+  margin-bottom: 10px;
+}
+
+/* AddInfo Page CSS items */
+#addInfoPage {
+  margin: 12px;
+}
+
+#addInfo {
+  margin-top: 115px;
+  margin-left: 55px;
+  position: relative;
+  overflow: auto;
+  padding-bottom: 55px;
+}
+
+/* MainInfo Page CSS items */
+#mainInfo {
+  margin-top: 115px;
+  margin-left: 55px;
+  padding-bottom: 10px;
+  max-width:max-content;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+}
+
+#dTable {
+  width:auto;
+}
