@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const infoController = require("../../controllers/infoController");
 
-router.route("/main")
+router.route("/")
   .post(infoController.create);
 
 module.exports = router;
