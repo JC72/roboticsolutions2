@@ -12,7 +12,7 @@ router
   .delete(infoController.remove);
 
 router
-  .route("/serialNumber/:serialNumber")
+  .route("/infos/:serialNumber")
   .get(infoController.findBySerialNumber)
   .put(infoController.update)
   .delete(infoController.remove);
