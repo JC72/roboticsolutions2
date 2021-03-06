@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { Component, useState, useEffect } from "react";
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import {useHistory} from 'react-router-dom';
 import Optimization from '../../components/Processes/Optimization';
@@ -9,8 +9,6 @@ import '../../components/process.css';
 import API from '../../utils/API'
 
     function Info() {
-
-        const [info, setInfo] = useState([])
         
         const [formObject, setFormObject] = useState({
             robotModel: "",
@@ -26,7 +24,7 @@ import API from '../../utils/API'
         const history = useHistory();
     
         const routeChange = () =>{ 
-            let path = `/main`; 
+            let path = `/`; 
             history.push(path);
         };
 
