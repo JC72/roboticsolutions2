@@ -8,7 +8,7 @@ function AddInfoFooter() {
     const history = useHistory();
     
     const routeChange = () =>{ 
-        let path = `/main`; 
+        let path = `/`; 
         history.push(path);
         }
 
