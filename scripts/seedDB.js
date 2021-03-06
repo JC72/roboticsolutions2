@@ -49,11 +49,16 @@ const infoSeed = [
 
 const userSeed = [
   {
-      name: "Jeffrey Clegg",
+      name: "JC1972",
       email: "jeffclegg@company.com",
       password: "Jc72*24"
+  },
+  {
+    name: "User15",
+    email: "user15@company.com",
+    password: "Test1234"
   }
-]
+];
 
 db.Review
   .remove({})

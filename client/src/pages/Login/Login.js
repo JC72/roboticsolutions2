@@ -4,8 +4,7 @@ import { useHistory } from "react-router-dom";
 import styles from "./Login.css";
 
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
-import config from "../../config";
+import {} from "react-router-dom";
 
 const Login = () => {
   const { register, handleSubmit, errors } = useForm();
@@ -15,34 +14,34 @@ const Login = () => {
   const onSubmit = () => {
       let path = `/main`; 
       history.push(path);
-    //   }
+  
     
-    // setMessage({
-    //   data: "Login is in progress...",
-    //   type: "alert-warning",
-    // });
-    // fetch(`${config.baseUrl}/usersnpm`, {
-    //   method: "POST",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(data),
-    // })
-    //   .then((res) => res.json())
-    //   .then(({ error, data }) => {
-    //     setMessage({
-    //       data: error || "Logged in successfully, redirecting...",
-    //       type: error ? "alert-danger" : "alert-success",
-    //     });
+  //   setMessage({
+  //     data: "Login is in progress...",
+  //     type: "alert-warning",
+  //   });
+  //   fetch(`${config.baseUrl}/usersnpm`, {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //     body: JSON.stringify(data),
+  //   })
+  //     .then((res) => res.json())
+  //     .then(({ error, data }) => {
+  //       setMessage({
+  //         data: error || "Logged in successfully, redirecting...",
+  //         type: error ? "alert-danger" : "alert-success",
+  //       });
 
-    //     !error &&
-    //       setTimeout(() => {
-    //         localStorage.setItem("token", data.token);
-    //         history.push("/dashboard");
-    //       }, 3000);
+  //       !error &&
+  //         setTimeout(() => {
+  //           localStorage.setItem("token", data.token);
+  //           history.push("/dashboard");
+  //         }, 3000);
 
-    //     !error && e.target.reset();
-    //   });
+  //       !error && e.target.reset();
+  //     });
   };
 
   return (
