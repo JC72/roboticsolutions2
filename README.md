@@ -201,7 +201,7 @@ This project is licensed under the MIT License License
 ## Execution
 ### To Execute File:
 > Just click on the Active site link in the link section or go to
-https://roboticsolutions2.herokuapp.com/ in the web browser.
+https://roboticsolutions2.herokuapp.com/ in the web browser.  Use USER15@company.com & Test1234 for username & password to access.
 
 ## Creators:
 
