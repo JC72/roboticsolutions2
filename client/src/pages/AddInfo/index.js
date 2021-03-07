@@ -59,6 +59,8 @@ import API from '../../utils/API'
                 },
                 ))
                 .catch(err => console.log(err));
+
+                routeChange();
             
         };
 
