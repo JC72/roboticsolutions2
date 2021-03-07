@@ -23,7 +23,7 @@ app.use(routes);
 // app.use('/api/user', authRoutes);
 
 //URI connection to Atlas Db
-const uri = process.env.Mongoose_URI;
+const uri = process.env.MONGODB_URI || "mongodb://localhost/robotSolutions";
 mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true});
 
 const connection = mongoose.connection;

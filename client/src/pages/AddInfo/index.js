@@ -24,7 +24,7 @@ import API from '../../utils/API'
         const history = useHistory();
     
         const routeChange = () =>{ 
-            let path = `/`; 
+            let path = `/main`; 
             history.push(path);
         };
 
