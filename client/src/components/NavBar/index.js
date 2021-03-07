@@ -1,9 +1,19 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link, useHistory} from 'react-router-dom';
 import {Navbar, Button, Nav} from 'react-bootstrap';
 import logo from '../../images/LeoniLogo.png';
 
+
+
 function NavBar() {
+
+    const history = useHistory();
+    
+        const routeChange = () =>{ 
+            let path = `/`; 
+            history.push(path);
+        };
+
     return(
         <Navbar collapseOnSelect bg="light" variant="light" expand="lg" fixed='top'>
                 <Navbar.Brand as={Link} to ='/'><img
@@ -23,10 +33,10 @@ function NavBar() {
                 <Nav className="mr-auto">
                     </Nav>
                     <Nav className='justify-content-end'>
-                        <Navbar.Text className='mr-sm-3' id="logInInfo">
-                            Signed in as: Mark Otto {/* This is where login name goes */}
-                        </Navbar.Text>
-                        <Button size="sm" id="SignOutBtn" variant="outline-dark">Sign Out</Button>
+                        {/* <Navbar.Text className='mr-sm-3' id="logInInfo">
+                            Signed in as: Mark Otto {/* This is where login name goes
+                        </Navbar.Text> */}
+                        <Button size="sm" id="SignOutBtn" variant="outline-dark" onClick={routeChange} >Sign Out</Button>
                     </Nav>
             </Navbar.Collapse>
         </Navbar>
